@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - COVETEN Engineering Components</title>
+    <meta name="description" content="Explore COVETEN's comprehensive range of engineering components across Aviation, Automobile, Electronics, Electrical, Robotics, and Industrial Safety industries.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon (using Font Awesome icon as fallback) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
+</head>
+<body>
+    <!-- Header with Sticky Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>COVETEN</h2></a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="products.html" class="nav__link active">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- Dark Mode Toggle -->
+            <div class="nav__actions">
+                <button class="dark-mode-toggle" id="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1 class="page-header__title">Our Products</h1>
+                    <p class="page-header__subtitle">Comprehensive range of engineering components across multiple industries</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html" class="breadcrumb__link">Home</a>
+                        <i class="fas fa-chevron-right"></i>
+                        <span class="breadcrumb__current">Products</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Filter -->
+        <section class="products-filter">
+            <div class="container">
+                <div class="filter-tabs" id="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Industries</button>
+                    <button class="filter-tab" data-filter="aviation">Aviation</button>
+                    <button class="filter-tab" data-filter="automobile">Automobile</button>
+                    <button class="filter-tab" data-filter="electronics">Electronics</button>
+                    <button class="filter-tab" data-filter="electrical">Electrical</button>
+                    <button class="filter-tab" data-filter="robotics">Robotics</button>
+                    <button class="filter-tab" data-filter="safety">Industrial Safety</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Showcase -->
+        <section class="products-showcase">
+            <div class="container">
+                <!-- Aviation Products -->
+                <div class="product-category" id="aviation" data-category="aviation">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Aviation</h2>
+                            <p class="category-description">High-quality aviation components for aircraft maintenance, operations, and safety.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.aviationtoday.com/wp-content/uploads/2023/02/precision-assembly-new.jpg" alt="Aircraft Parts" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Aircraft Parts & Components</h3>
+                                <p class="product-description">Certified aircraft parts including engine components, landing gear, avionics, and structural elements.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">FAA Certified</span>
+                                    <span class="feature-tag">High Quality</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://kadexaero.com/wp-content/uploads/Aeroshell-Group.jpg" alt="Aviation Lubricants" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Lubricants</h3>
+                                <p class="product-description">Specialized aviation lubricants for engines, hydraulic systems, and mechanical components.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Temperature Resistant</span>
+                                    <span class="feature-tag">Long Lasting</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Slingsby.t67c.panel.g-bocm.arp.jpg" alt="Aviation Equipment" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Equipment & Instruments</h3>
+                                <p class="product-description">Navigation instruments, communication equipment, and flight control systems.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Precision</span>
+                                    <span class="feature-tag">Reliable</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.rcoeng.com/hubfs/Airplane-interior-with-empty-dark-blue-seats-with-screens-in-the-back.jpg" alt="Aircraft Interior" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Interior Products</h3>
+                                <p class="product-description">Cabin interior components, seating systems, and passenger comfort solutions.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Comfort</span>
+                                    <span class="feature-tag">Durable</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://33aeeec4.delivery.rocketcdn.me/wp-content/uploads/2024/07/AdobeStock_22365688-scaled.jpeg" alt="Ground Support Equipment" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Ground Support Equipment</h3>
+                                <p class="product-description">Ground handling equipment, tugs, loaders, and maintenance platforms.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Heavy Duty</span>
+                                    <span class="feature-tag">Efficient</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://shop.jeppesen.com/images///products/10001854-443x443.jpg" alt="Pilot Supplies" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Pilot Supplies</h3>
+                                <p class="product-description">Flight bags, headsets, charts, navigation tools, and pilot accessories.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Professional</span>
+                                    <span class="feature-tag">Essential</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automobile Products -->
+                <div class="product-category" id="automobile" data-category="automobile">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Automobile</h2>
+                            <p class="category-description">Complete range of automotive components for vehicles of all types.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Engine Parts" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Engine Parts</h3>
+                                <p class="product-description">Pistons, valves, gaskets, filters, and complete engine assemblies for all vehicle types.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">OEM Quality</span>
+                                    <span class="feature-tag">Warranty</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Suspension Parts" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Suspension & Steering</h3>
+                                <p class="product-description">Shock absorbers, struts, steering components, and chassis parts for smooth handling.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Performance</span>
+                                    <span class="feature-tag">Safety</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Electrical Components" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Electrical Components</h3>
+                                <p class="product-description">Alternators, starters, batteries, wiring harnesses, and electronic control modules.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Reliable</span>
+                                    <span class="feature-tag">Efficient</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.acg.aaa.com/content/contenthub/us/en/blogs/4c/auto/car-fluids-check/_jcr_content/root/container/container/blog-details/image.coreimg.jpeg/1746620449953/1-car-fluids-101-collage.jpeg" alt="Automotive Fluids" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Lubricants & Fluids</h3>
+                                <p class="product-description">Engine oils, transmission fluids, brake fluids, and coolants for optimal performance.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Premium</span>
+                                    <span class="feature-tag">Protection</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://i0.wp.com/www.theengineeringchoice.com/wp-content/uploads/2024/06/Parts-of-A-Car-Wheel-Diagram.webp" alt="Tires and Wheels" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Tires & Wheels</h3>
+                                <p class="product-description">High-performance tires, alloy wheels, and tire accessories for all seasons.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Durable</span>
+                                    <span class="feature-tag">All Season</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.lincolncustomauto.com/Files/Images/blog/acsystem.jpg" alt="AC Parts" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Air Conditioning & Heating</h3>
+                                <p class="product-description">HVAC components, compressors, condensers, and climate control systems.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Comfort</span>
+                                    <span class="feature-tag">Energy Efficient</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electronics Products -->
+                <div class="product-category" id="electronics" data-category="electronics">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Electronics</h2>
+                            <p class="category-description">Advanced electronic components and systems for modern applications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.automationreadypanels.com/wp-content/uploads/2024/04/allen_bradley_plc_Scada-1024x683.jpg" alt="Control Systems" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Control Systems & Automation</h3>
+                                <p class="product-description">PLCs, HMIs, SCADA systems, and industrial automation components.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Smart</span>
+                                    <span class="feature-tag">Automated</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.ctfassets.net/8cjpn0bwx327/g4RURLgfruQSO11u6qSqQ/2c4b4e595d523b3938d1830dc4d07868/An_image_showcasing_various_types_of_sensors_and_actuators_commonly_used_in_industrial_IoT_applications__such_as_temperature.jpg" alt="Sensors" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Sensors & Actuators</h3>
+                                <p class="product-description">Temperature, pressure, proximity sensors, and precision actuators.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Precise</span>
+                                    <span class="feature-tag">Responsive</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.wiltronics.com.au/wp-content/uploads/electronics-testing-eqipment-collage.jpg" alt="Testing Tools" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Testing & Quality Assurance</h3>
+                                <p class="product-description">Oscilloscopes, multimeters, signal generators, and testing equipment.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Accurate</span>
+                                    <span class="feature-tag">Professional</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://cdn2.hubspot.net/hubfs/2568500/Blog%20images/Post-Images/Pros%20and%20Cons%20of%20PCBs%20875x450.jpg" alt="PCBs" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Printed Circuit Boards</h3>
+                                <p class="product-description">Custom PCBs, prototype boards, and electronic circuit assemblies.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Custom</span>
+                                    <span class="feature-tag">Quality</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electrical Products -->
+                <div class="product-category" id="electrical" data-category="electrical">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Electrical</h2>
+                            <p class="category-description">Comprehensive electrical components and power systems.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.csemag.com/wp-content/uploads/2025/03/CSE2407_MAG_POWER_slider.jpeg" alt="Power Systems" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Power Distribution Systems</h3>
+                                <p class="product-description">Switchgear, transformers, circuit breakers, and power management solutions.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Reliable</span>
+                                    <span class="feature-tag">Safe</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://scdn.emotorsdirect.ca/img/knowledge-center/hero/ac-dc-motor-speed-control.jpeg" alt="Motors" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Motors & Drives</h3>
+                                <p class="product-description">AC/DC motors, variable frequency drives, and motor control centers.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Efficient</span>
+                                    <span class="feature-tag">Durable</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Robotics Products -->
+                <div class="product-category" id="robotics" data-category="robotics">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Robotics</h2>
+                            <p class="category-description">Advanced robotics solutions for industrial automation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.robomotion.co.uk/wp-content/uploads/2020/09/6-axis-robot-scaled.jpg" alt="Industrial Robots" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Industrial Automation Robots</h3>
+                                <p class="product-description">6-axis robots, collaborative robots, and robotic arms for manufacturing.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Precision</span>
+                                    <span class="feature-tag">Flexible</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://connectedtechnologysolutions.co.uk/wp-content/uploads/2020/08/3dvm-image2v2-2-1024x683.jpg" alt="Testing Robots" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Testing Robots</h3>
+                                <p class="product-description">Quality control robots, inspection systems, and automated testing equipment.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Accurate</span>
+                                    <span class="feature-tag">Consistent</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://power-packconveyor.com/wp-content/uploads/2024/05/automated-conveyor-systems.jpg" alt="Conveyor Systems" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Conveyor Automation</h3>
+                                <p class="product-description">Automated conveyor systems, sorting equipment, and material handling solutions.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Automated</span>
+                                    <span class="feature-tag">Efficient</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Industrial Safety Products -->
+                <div class="product-category" id="safety" data-category="safety">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="category-info">
+                            <h2 class="category-title">Industrial Safety</h2>
+                            <p class="category-description">Complete range of safety equipment and protective gear.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.anbusafety.com/wp-content/uploads/2021/11/Work-Safety-Helmet.jpg" alt="Safety Helmets" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Safety Helmets & Hats</h3>
+                                <p class="product-description">Hard hats, bump caps, and specialized headwear for workplace protection.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Certified</span>
+                                    <span class="feature-tag">Comfortable</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://m.media-amazon.com/images/I/71rlIvSkCNL._UY900_.jpg" alt="Safety Shoes" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Safety Shoes & Boots</h3>
+                                <p class="product-description">Steel-toed boots, slip-resistant footwear, and specialized work shoes.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Protection</span>
+                                    <span class="feature-tag">Durable</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://m.media-amazon.com/images/I/613vw7DXilL._UF1000,1000_QL80_.jpg" alt="Hearing Protection" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Hearing Protection</h3>
+                                <p class="product-description">Earplugs, earmuffs, and noise-canceling headphones for industrial environments.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Noise Reduction</span>
+                                    <span class="feature-tag">Comfort</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://www.corepowerltd.com/wp-content/uploads/2024/11/Fire-Safety-Equipments-1-1024x602-1-771x443.webp" alt="Fire Safety" loading="lazy">
+                                <div class="product-overlay">
+                                    <button class="btn btn--primary product-btn">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Fire Safety Equipment</h3>
+                                <p class="product-description">Fire extinguishers, smoke detectors, emergency lighting, and fire suppression systems.</p>
+                                <div class="product-features">
+                                    <span class="feature-tag">Emergency Ready</span>
+                                    <span class="feature-tag">Reliable</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="products-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Need Custom Solutions?</h2>
+                    <p class="cta-description">Our engineering experts can help you find the perfect components for your specific requirements.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn--primary">Get Quote</a>
+                        <a href="services.html" class="btn btn--secondary">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">COVETEN</h3>
+                    <p class="footer__description">Leading provider of engineering components and services across multiple industries.</p>
+                    <div class="footer__social">
+                        <a href="https://linkedin.com/company/coveten" target="_blank" class="footer__social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/coveten" target="_blank" class="footer__social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="products.html" class="footer__link">Products</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Industries</h4>
+                    <ul class="footer__links">
+                        <li><a href="#aviation" class="footer__link">Aviation</a></li>
+                        <li><a href="#automobile" class="footer__link">Automobile</a></li>
+                        <li><a href="#electronics" class="footer__link">Electronics</a></li>
+                        <li><a href="#robotics" class="footer__link">Robotics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Contact Info</h4>
+                    <div class="footer__contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 16/A, Electronics City, Bangalore 100</p>
+                        <p><i class="fas fa-phone"></i> +91 97414 64216</p>
+                        <p><i class="fas fa-envelope"></i> info@coveten.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 COVETEN. All Rights Reserved.</p>
+                <div class="footer__legal">
+                    <a href="privacy.html" class="footer__legal-link">Privacy Policy</a>
+                    <a href="terms.html" class="footer__legal-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>

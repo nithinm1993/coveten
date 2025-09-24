@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - COVETEN Engineering Components</title>
+    <meta name="description" content="Get in touch with COVETEN for all your engineering component needs. Contact us for quotes, consultation, and support services.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon (using Font Awesome icon as fallback) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
+</head>
+<body>
+    <!-- Header with Sticky Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>COVETEN</h2></a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="products.html" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- Dark Mode Toggle -->
+            <div class="nav__actions">
+                <button class="dark-mode-toggle" id="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1 class="page-header__title">Contact Us</h1>
+                    <p class="page-header__subtitle">We're here to help with all your engineering component needs</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html" class="breadcrumb__link">Home</a>
+                        <i class="fas fa-chevron-right"></i>
+                        <span class="breadcrumb__current">Contact</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-info-grid">
+                    <div class="contact-info-card" data-aos="fade-up">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Our Location</h3>
+                            <p class="contact-info-text">COVETEN Corporate Office<br>16/A, Electronics City<br>Bangalore 100</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Phone Number</h3>
+                            <p class="contact-info-text">
+                                <a href="tel:+919876543210">+91 97414 64216</a><br>
+                                <span class="contact-info-hours">Mon-Fri: 9:00 AM - 6:00 PM IST</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Email Address</h3>
+                            <p class="contact-info-text">
+                                <a href="mailto:info@coveten.com">info@coveten.com</a><br>
+                                <a href="mailto:sales@coveten.com">sales@coveten.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3 class="contact-info-title">Business Hours</h3>
+                            <p class="contact-info-text">
+                                Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                Saturday: 10:00 AM - 4:00 PM<br>
+                                Sunday: Closed
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Contact Section -->
+        <section class="main-contact-section">
+            <div class="container">
+                <div class="contact-main-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container" data-aos="fade-right">
+                        <div class="contact-form-header">
+                            <h2 class="contact-form-title">Send us a Message</h2>
+                            <p class="contact-form-description">Fill out the form below and we'll get back to you within 24 hours.</p>
+                        </div>
+                        
+                        <form class="contact-main-form" id="contact-main-form">
+                            <div class="form-row">
+                                <div class="form__group">
+                                    <input type="text" name="name" class="form__input" required>
+                                    <label class="form__label">Full Name *</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" name="email" class="form__input" required>
+                                    <label class="form__label">Email Address *</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form__group">
+                                    <input type="tel" name="phone" class="form__input" required>
+                                    <label class="form__label">Phone Number *</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" name="company" class="form__input">
+                                    <label class="form__label">Company Name</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <select name="subject" class="form__select" required>
+                                    <option value="">Select Subject *</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="quote">Request Quote</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="careers">Careers</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label class="form__label form__label--select">Subject *</label>
+                            </div>
+                            
+                            <div class="form__group">
+                                <select name="industry" class="form__select">
+                                    <option value="">Select Industry</option>
+                                    <option value="aviation">Aviation</option>
+                                    <option value="automobile">Automobile</option>
+                                    <option value="electronics">Electronics</option>
+                                    <option value="electrical">Electrical</option>
+                                    <option value="robotics">Robotics</option>
+                                    <option value="safety">Industrial Safety</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label class="form__label form__label--select">Industry</label>
+                            </div>
+                            
+                            <div class="form__group">
+                                <textarea name="message" class="form__textarea" rows="6" required></textarea>
+                                <label class="form__label">Your Message *</label>
+                            </div>
+                            
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="form__checkbox">
+                                <label for="newsletter" class="form__checkbox-label">
+                                    Subscribe to our newsletter for industry updates and product information
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary form__submit">
+                                Send Message
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Map and Additional Info -->
+                    <div class="contact-map-container" data-aos="fade-left">
+                        <div class="contact-map-header">
+                            <h3 class="contact-map-title">Find Us</h3>
+                            <p class="contact-map-description">Visit our office in Bengaluru for face-to-face consultations and demonstrations.</p>
+                        </div>
+                        
+                        <!-- Interactive Map -->
+                        <div class="contact-map" id="contact-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089937163!2d77.46612570644539!3d12.953945614028256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0; border-radius: 8px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                        <!-- Contact Details -->
+                        <div class="contact-details-extended">
+                            <h4 class="contact-details-title">Get In Touch</h4>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <h5>Corporate Office</h5>
+                                    <p>COVETEN Engineering Components<br>16/A, Electronics City<br>Bangalore 100</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <h5>Customer Support</h5>
+                                    <p>24/7 Technical Support Available<br>Response Time: Within 2 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-shipping-fast"></i>
+                                </div>
+                                <div class="contact-detail-content">
+                                    <h5>Shipping & Logistics</h5>
+                                    <p>Global shipping available<br>Express delivery options</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Media -->
+                        <div class="contact-social">
+                            <h4 class="contact-social-title">Follow Us</h4>
+                            <div class="contact-social-links">
+                                <a href="https://linkedin.com/company/coveten" target="_blank" class="contact-social-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://twitter.com/coveten" target="_blank" class="contact-social-link">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="mailto:info@coveten.com" class="contact-social-link">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </a>
+                                <a href="tel:+919876543210" class="contact-social-link">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Frequently Asked Questions</h2>
+                    <div class="section__line"></div>
+                    <p class="section__description">Find quick answers to common questions about our products and services</p>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-question" data-faq="1">
+                            <h3>What industries do you serve?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We serve six major industries: Aviation, Automobile, Electronics, Electrical, Robotics, and Industrial Safety. Our expertise spans across these sectors with specialized products and services tailored to each industry's requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="faq-question" data-faq="2">
+                            <h3>Do you provide international shipping?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we provide global shipping services to customers worldwide. We work with reliable logistics partners to ensure safe and timely delivery of your orders. Shipping costs and delivery times vary based on location and product specifications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="faq-question" data-faq="3">
+                            <h3>What is your typical response time for quotes?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We typically respond to quote requests within 24 hours during business days. For complex projects requiring detailed analysis, it may take up to 48-72 hours. We'll always acknowledge your request immediately and provide an expected timeline.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="faq-question" data-faq="4">
+                            <h3>Do you offer technical support and consultation?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We provide comprehensive technical support and engineering consultation services. Our expert team can help with project planning, design, material selection, and implementation. We offer both pre-sales and post-sales support.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="faq-question" data-faq="5">
+                            <h3>Can you source custom or specialized components?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we have an extensive global supplier network that allows us to source custom and specialized components. If we don't have what you need in our standard inventory, we can help you find and procure the right components for your specific requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="faq-question" data-faq="6">
+                            <h3>What quality certifications do your products have?</h3>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our products meet international quality standards and industry-specific certifications including ISO, FAA (for aviation), CE marking, and others relevant to each industry. All products come with proper documentation and certificates of compliance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="contact-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Get Started?</h2>
+                    <p class="cta-description">Let's discuss your engineering component needs and find the perfect solution for your project.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact-main-form" class="btn btn--primary">Send Message</a>
+                        <a href="tel:+919876543210" class="btn btn--secondary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">COVETEN</h3>
+                    <p class="footer__description">Leading provider of engineering components and services across multiple industries.</p>
+                    <div class="footer__social">
+                        <a href="https://linkedin.com/company/coveten" target="_blank" class="footer__social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/coveten" target="_blank" class="footer__social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="products.html" class="footer__link">Products</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Contact Info</h4>
+                    <div class="footer__contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 16/A, Electronics City, Bangalore 100</p>
+                        <p><i class="fas fa-phone"></i> +91 97414 64216</p>
+                        <p><i class="fas fa-envelope"></i> info@coveten.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__heading">Business Hours</h4>
+                    <div class="footer__hours">
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 10:00 AM - 4:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 COVETEN. All Rights Reserved.</p>
+                <div class="footer__legal">
+                    <a href="privacy.html" class="footer__legal-link">Privacy Policy</a>
+                    <a href="terms.html" class="footer__legal-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
