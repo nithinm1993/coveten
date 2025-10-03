@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://coveten.com/sitemap.xml
+
+# Disallow documentation files
+Disallow: /*.md
+Disallow: /README.md
+Disallow: /*_GUIDE.md
+Disallow: /*_REPORT.md
+Disallow: /*_SUMMARY.md
+
+# Allow important pages
+Allow: /index.html
+Allow: /products.html
+Allow: /services.html
+Allow: /contact.html
+Allow: /css/
+Allow: /js/
